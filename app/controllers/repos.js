@@ -15,7 +15,6 @@ exports.getAll = function(req, res){
 		} else {
 			res.send(response.statusCode, body);
 		}
-		res.end();
 	});
 };
 
@@ -32,7 +31,6 @@ exports.get = function(req, res) {
 		} else {
 			res.send(response.statusCode, body);
 		}
-		res.end();
 	});
 }
 
@@ -50,6 +48,5 @@ exports.getContributors = function(req, res) {
 		} else {
 			res.send(response.statusCode, body);
 		}
-		res.end();
 	});
 }
