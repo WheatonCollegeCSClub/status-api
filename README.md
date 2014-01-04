@@ -8,9 +8,12 @@ It was scaffolded with [**generator-express**](https://github.com/petecoop/gener
 ### Develop
 To start developing with this project, follow these steps:
 
-1. `git clone`
+1. `git clone git@github.com:WheatonCollegeCSClub/status-api.git wheatoncs-status-api`
 2. `npm install`
 3. `grunt`
+
+### Github API
+This project uses the [Github API](http://developer.github.com/v3) to get information for projects.
 
 ### Editor Config
 This project uses [editor config](http://editorconfig.org/) to keep editor styles in sync. If you're using Sublime Text, you can download the plugin [here](https://github.com/sindresorhus/editorconfig-sublime). No other configuration is necessary.
