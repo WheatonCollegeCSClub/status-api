@@ -3,15 +3,8 @@
 var mongoose = require('mongoose'),
   Schema = mongoose.Schema;
 
-var ArticleSchema = new Schema({
-  title: String,
-  url: String,
-  text: String
+var RepoSchema = new Schema({
+
 });
 
-ArticleSchema.virtual('date')
-  .get(function(){
-    return this._id.getTimestamp();
-  });
-
-mongoose.model('Article', ArticleSchema);
+mongoose.model('Repo', RepoSchema);
