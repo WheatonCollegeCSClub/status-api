@@ -12,6 +12,17 @@ To start developing with this project, follow these steps:
 2. `npm install`
 3. `grunt`
 
+### Endpoints
+
+``` GET /repos/```
+get all the repos that belong to the organization
+
+``` GET /repos/:repo```
+get a specific repo
+
+``` GET /repos/:repo/contributors```
+get the contributors for a specific repo
+
 ### Github API
 This project uses the [Github API](http://developer.github.com/v3) to get information for projects.
 
